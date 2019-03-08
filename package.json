@@ -1,0 +1,27 @@
+{
+    "name": "com.example.hello5",
+    "displayName": "HelloWorld5",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova": "^8.1.2",
+        "cordova-ios": "5.0.0",
+        "cordova-plugin-firebase-analytics": "git+https://github.com/chemerisuk/cordova-plugin-firebase-analytics.git#339522576a90544070dcdb280b99f7c5541e7dc3",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-firebase-analytics": {},
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}
